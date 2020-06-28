@@ -17,8 +17,8 @@ print(jobs.columns)
 # plot pie
 forPie = jobs['经验'].value_counts()
 print(forPie)
-plt.pie(forPie.values, radius=1, labels=forPie.index, startangle=160, autopct='%.1f%%',shadow=False,colors=seaborn.color_palette('hls',5))
-plt.savefig("./analysis-result/pie-experience.png",dpi=200,bbox_inches='tight')
+plt.pie(forPie.values, radius=0.9, labels=forPie.index, startangle=160, autopct='%.1f%%',shadow=False,colors=seaborn.color_palette('hls',5))
+plt.savefig("./analysis-result/pie-experience.png",dpi=180,bbox_inches='tight')
 
 
 # plot = seaborn.scatterplot(x='薪资',y='经验',data=jobs)
