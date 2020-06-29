@@ -5,3 +5,6 @@
 
 * 条形图   
     ![](https://raw.githubusercontent.com/gopher110/scripts/master/site/zhiping.com/analysis-result/bar-company.png)
+
+* 直方图   
+    ![](https://raw.githubusercontent.com/gopher110/scripts/master/site/zhiping.com/analysis-result/hist-salary.png)
